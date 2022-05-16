@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px auto;
+    background-color: #FFF2F9;
+}
+
+.nav-container {
+    margin: 30px auto;
+    height: 80px;
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    background-color: white;
+    
+}
+
+.nav-logo{
+    cursor: pointer;
+    padding-top: 4px;
+}
+
+.nav-logo img {
+    width: 110px;
+    height: auto;
+    border: 1px solid lightcoral;
+    border-radius: 50%;
+    box-shadow: 4px 5px 5px 0 gray;
+}
+
+
+.nav-links ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+    font-size: 1.3em;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+}
+
+.nav-links ul li:hover{
+    transform: scale(1.1);
+    transition: all 0.50s;
+}
+
+.nav-links ul li a:hover {
+    color:pink;
+    border-bottom: 3px solid pink;
+}
+
+
+/* INICIO CSS para banner Ofertas */
+
+.banner-ofertas {
+    height: 200px;
+    width: 60%;   
+    margin: 15px auto;
+}
+
+.banner-ofertas img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+/* FIN CSS para banner Ofertas */
+
+/* INICIO CSS para CARDS PRODUCTOS */
+
+.cards-container {
+    width: 60%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    transition: all 0.30s;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.seccion{
+    width: 50%;
+}
+
+.seccion img {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+.seccion a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 15px;
+    font-weight: 500;
+}
+
+.card:hover {
+    transform: translate(4px, -1%);
+}
+
+.card img {
+    width: 450px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.card-description {
+    text-align: rigth;
+    width: 45%;
+}
+
+.cards-container .card:nth-child(even) .card-description {
+    order:-1;
+}
+
+.card-description h4 {
+    font-weight: 500;
+}
+
+.card-description p {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.card-description button {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    border: 1px solid cornflowerblue;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+}
+
+.card-description button a{
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3498db;
+}
+
+/* FIN CSS para CARDS PRODUCTOS */
+
+/* INICIO CSS para BANNER PUBLICIDAD */
+
+.banner-publicidad {
+    height: 150px;
+    width: 820px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.banner-publicidad img {
+    height: 150px;
+    width: 820px;
+    
+}
+ hr {
+     width: 60%;
+     margin: 15px auto;
+ }
+
+ /* FIN CSS para BANNER PUBLICIDAD */
+
+ .footer {
+     margin: 0 auto;
+     width: 820px;
+     height: 80px;
+ }
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    
+}
+
+ .footer div img {
+     width: 30px;
+    margin: 0 5px;    
+ }
+
+
+.copyright{
+     width: 100%;
+
+ }
+
+ .copyright p {
+    text-align: center;
+    font-size: .8em;
+    font-weight: 500;
+ }
+
+
+fieldset legend {
+    font-weight: 500;
+    margin: 16px;
+}
+
+form {
+    width: 500px;
+    height: 800px;
+}
+.main-form {
+    width: 60%;
+    margin: 50px auto;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+label {
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+textarea{
+    height: 200px;
+    width: 200px;
+}
+.main-form article div img{
+     width: 100px;
+     margin: 15px 0;
+
+ }
+
+ input{
+     margin: 10px;
+ }
+
